@@ -1,0 +1,66 @@
+title {
+    display: none;
+}
+
+* {
+    background-color: rgb(31, 30, 30);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column ;
+    
+
+}
+
+.kenzielogo {
+    height: 120px;
+    width: 80px;
+}
+
+.who {
+    font-size: 20px;
+    font-weight: 450;
+    margin: 30px;
+    
+
+} 
+
+.perfis {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.boxperfil {
+    height: 200px;
+    width: 200px;
+    border-radius: 7px;
+    border-color: grey;
+    margin-bottom: 40px;
+    
+}
+
+.plus {
+   
+
+
+}
+
+.boxperfil:hover {
+    border-color:rgb(7, 114, 214);
+    background-color: rgba(128, 128, 128, 0.219);
+}
+
+button {
+    padding: 10px;
+    border-radius: 6px;
+    width: 180px;
+}
+
+.gerencia:hover {
+    background-color: white;
+    color:black;
+    
+
+}
