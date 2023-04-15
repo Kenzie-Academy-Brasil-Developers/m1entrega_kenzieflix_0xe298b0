@@ -27,29 +27,32 @@ title {
 } 
 
 .perfis {
+    height: 300px;
     display: flex;
     flex-direction: row;
 
 }
 
 .boxperfil {
-    height: 200px;
-    width: 200px;
+    height: 170px;
+    width: 170px;
     border-radius: 7px;
-    border-color: grey;
     margin-bottom: 40px;
     
 }
 
 .plus {
-   
-
+    background-color: solid rgb(31, 30, 30) ;
 
 }
 
-.boxperfil:hover {
-    border-color:rgb(7, 114, 214);
-    background-color: rgba(128, 128, 128, 0.219);
+.boxperfil:hover figure{
+    border: 2px solid white;
+}
+
+.boxperfil:hover p{
+    color: rgba(255, 255, 255, 0.527)
+
 }
 
 button {
